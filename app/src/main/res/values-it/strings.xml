@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright 2014 Braden Farmer
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+
+-->
+
+<resources>
+
+    <string name="action_cancel">Annulla</string>
+    <string name="action_close">Chiudi</string>
+    <string name="action_delete">Elimina</string>
+    <string name="action_discard">Dimentica</string>
+    <string name="action_edit">Modifica</string>
+    <string name="action_export">Esporta</string>
+    <string name="action_font_size">Dimensione carattere</string>
+    <string name="action_new">Nuova nota</string>
+    <string name="action_save">Salva</string>
+    <string name="action_settings">Impostazioni</string>
+    <string name="action_share">Condividi</string>
+    <string name="action_sort_by">Ordina note per</string>
+    <string name="action_export_filename">Exported filename</string>
+    <string name="app_name">Notepad</string>
+    <string name="app_name_debug">Notepad (Debug)</string>
+    <string name="cab_note_selected">%d nota selezionata</string>
+    <string name="cab_notes_selected">%d note selezionate</string>
+    <string name="changes_discarded">Modifiche annullate</string>
+    <string name="dialog_about_message">Notepad: una semplice app per appunti\n\n&#169; %d Braden Farmer\nApp logo by Tobaloidee</string>
+    <string name="dialog_about_title">Riguardo a Notepad</string>
+    <string name="dialog_are_you_sure">Sei sicuro?</string>
+    <string name="dialog_delete_button_title">Elimina nota</string>
+    <string name="dialog_delete_button_title_plural">Elimina note</string>
+    <string name="dialog_save_button_title">Salva le modifiche</string>
+    <string name="dialog_save_changes">Vuoi salvare le modifiche?</string>
+    <string name="draft_restored">Bozza riaperta</string>
+    <string name="draft_saved">Bozza salvata</string>
+    <string name="double_tap">Consiglio: doppio tocco per passare in modalit&#225; Modifica</string>
+    <string name="edit_text">Scrivi per aggiungere il testo</string>
+    <string name="empty_note">Per favore, inserisci un testo!</string>
+    <string name="first_run">Benvenuto in Notepad!\n\nPer creare una nota, clicca sul pulsante Nuova nota (segno pi&#249;).</string>
+    <string name="first_view">Per modificare una nota salvata, fai doppio-tocco sul testo o clicca il pulsante Modifica (matita).</string>
+    <string name="import_notes">Importa note</string>
+    <string name="loading_external_file">Il caricamento di file esterni non &#232; supportato</string>
+    <string name="no_notes_found">Nessuna nota trovata</string>
+    <string name="note_deleted">Nota eliminata</string>
+    <string name="note_exported_to">Nota esportata con successo</string>
+    <string name="note_saved">Nota salvata</string>
+    <string name="notes_deleted">Note eliminate</string>
+    <string name="notes_exported_to">Note esportate con successo</string>
+    <string name="note_imported_successfully">Nota importata con successo</string>
+    <string name="notes_imported_successfully">Note importate con successo</string>
+    <string name="pref_title_show_dialogs">Chiedi prima di salvare</string>
+    <string name="send_to">Condividi nota con&#8230;</string>
+    <string name="pref_title_show_date">Mostra data/ora</string>
+    <string name="action_theme">Tema</string>
+    <string name="pref_title_direct_edit">Modifica note direttamente</string>
+    <string name="pref_title_markdown">Supporto Markdown/HTML</string>
+    <string name="action_print">Stampa</string>
+    <string name="action_start_selection">Seleziona note</string>
+    <string name="action_select_all">Seleziona tutte</string>
+    <string name="no_notes_to_select">Nessuna nota da selezionare</string>
+    <string name="document">%1$s Documento</string>
+    <string name="no_notes_to_export">Nessuna nota selezionata da esportare</string>
+    <string name="no_notes_to_delete">Nessuna nota selezionata da cancellare</string>
+    <string name="check_for_updates">Controlla aggiornamenti</string>
+    <string name="rtl_layout">Right-to-left layout</string>
+    <string name="pref_title_font_type">Font type</string>
+
+    <string-array name="sort_by_list">
+        <item>Data (prima le pi&#249; recenti)</item>
+        <item>Data (prima le pi&#249; vecchie)</item>
+        <item>Nome (A-Z)</item>
+        <item>Nome (Z-A)</item>
+    </string-array>
+    <string-array name="theme_list">
+        <item>System</item>
+        <item>Chiaro</item>
+        <item>Scuro</item>
+    </string-array>
+    <string-array name="font_type_list">
+        <item>Sans serif</item>
+        <item>Serif</item>
+        <item>Monospace</item>
+    </string-array>
+    <string-array name="font_size_list">
+        <item>Molto piccolo</item>
+        <item>Piccolo</item>
+        <item>Normale</item>
+        <item>Grande</item>
+        <item>Molto grande</item>
+    </string-array>
+    <string-array name="exported_filename_list">
+        <item>First line of text</item>
+        <item>First line + timestamp</item>
+        <item>Timestamp + first line</item>
+    </string-array>
+
+</resources>

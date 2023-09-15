@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright 2014 Braden Farmer
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+
+-->
+
+<resources>
+
+    <string name="action_cancel">Annuleren</string>
+    <string name="action_close">Sluiten</string>
+    <string name="action_delete">Verwijderen</string>
+    <string name="action_discard">Verwerpen</string>
+    <string name="action_edit">Bewerken</string>
+    <string name="action_export">Exporteren</string>
+    <string name="action_font_size">Lettertypegrootte</string>
+    <string name="action_new">Nieuwe notitie</string>
+    <string name="action_save">Opslaan</string>
+    <string name="action_settings">Instellingen</string>
+    <string name="action_share">Delen</string>
+    <string name="action_sort_by">Sorteren op</string>
+    <string name="action_export_filename">Exported filename</string>
+    <string name="app_name">Notitieblok</string>
+    <string name="app_name_debug">Notitieblok (foutopsporing)</string>
+    <string name="cab_note_selected">%d notitie geselecteerd</string>
+    <string name="cab_notes_selected">%d notities geselecteerd</string>
+    <string name="changes_discarded">Wijzigingen verworpen</string>
+    <string name="dialog_about_message">Notitieblok: een eenvoudige notitie-app\n\n&#169; %d Braden Farmer\nApp-logo door Tobaloidee</string>
+    <string name="dialog_about_title">Over Notitieblok</string>
+    <string name="dialog_are_you_sure">Weet je het zeker?</string>
+    <string name="dialog_delete_button_title">Notitie verwijderen</string>
+    <string name="dialog_delete_button_title_plural">Notities verwijderen</string>
+    <string name="dialog_save_button_title">Opslaan</string>
+    <string name="dialog_save_changes">Wil je de wijzigingen opslaan?</string>
+    <string name="draft_restored">Concept hersteld</string>
+    <string name="draft_saved">Concept opgeslagen</string>
+    <string name="double_tap">Tip: dubbeltik op de tekst om de bewerkmodus te openen</string>
+    <string name="edit_text">Typ om tekst in te voeren</string>
+    <string name="empty_note">Voer tekst in!</string>
+    <string name="first_run">Welkom bij Notitieblok!\n\nVoeg een notitie toe door op de knop Nieuwe Notite (plus-teken) te drukken.</string>
+    <string name="first_view">Dubbeltik op een tekst om deze te bewerken of druk op de bewerkknop (potlood).</string>
+    <string name="import_notes">Notities importeren</string>
+    <string name="loading_external_file">Laden van externe bestanden niet toegestaan</string>
+    <string name="no_notes_found">Geen notities aangetroffen</string>
+    <string name="note_deleted">Notitie verwijderd</string>
+    <string name="note_exported_to">Notitie geëxporteerd</string>
+    <string name="note_saved">Notitie opgelagen</string>
+    <string name="notes_deleted">Notities verwijderd</string>
+    <string name="notes_exported_to">Notities geëxporteerd</string>
+    <string name="note_imported_successfully">Notitie geïmporteerd</string>
+    <string name="notes_imported_successfully">Notities geïmporteerd</string>
+    <string name="pref_title_show_dialogs">Vragen alvorens op te slaan</string>
+    <string name="send_to">Notitie delen met&#8230;</string>
+    <string name="pref_title_show_date">Datum/tijd tonen</string>
+    <string name="action_theme">Thema</string>
+    <string name="pref_title_direct_edit">Notities direct bewerken</string>
+    <string name="pref_title_markdown">Markdown/HTML-ondersteuning</string>
+    <string name="action_print">Afdrukken</string>
+    <string name="action_start_selection">Notities selecteren</string>
+    <string name="action_select_all">Alles selecteren</string>
+    <string name="no_notes_to_select">Geen te selecteren notities</string>
+    <string name="document">%1$s document</string>
+    <string name="no_notes_to_export">Geen te exporteren notities geselecteerd</string>
+    <string name="no_notes_to_delete">Geen te verwijderen notities geselecteerd</string>
+    <string name="check_for_updates">Check for Updates</string>
+    <string name="rtl_layout">Right-to-left layout</string>
+    <string name="pref_title_font_type">Font type</string>
+
+    <string-array name="sort_by_list">
+        <item>Datum (recentst eerst)</item>
+        <item>Datum (oldest first)</item>
+        <item>Naam (A-Z)</item>
+        <item>Naam (Z-A)</item>
+    </string-array>
+    <string-array name="theme_list">
+        <item>System</item>
+        <item>Licht</item>
+        <item>Donker</item>
+    </string-array>
+    <string-array name="font_type_list">
+        <item>Schreefloos</item>
+        <item>Met schreef</item>
+        <item>Vaste breedte</item>
+    </string-array>
+    <string-array name="font_size_list">
+        <item>Kleinst</item>
+        <item>Klein</item>
+        <item>Normaal</item>
+        <item>Groot</item>
+        <item>Grootst</item>
+    </string-array>
+    <string-array name="exported_filename_list">
+        <item>First line of text</item>
+        <item>First line + timestamp</item>
+        <item>Timestamp + first line</item>
+    </string-array>
+
+</resources>

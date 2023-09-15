@@ -1,0 +1,26 @@
+CREATE TABLE IF NOT EXISTS NoteContents(
+    contentsId INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+    text TEXT,
+    draftText TEXT
+);
+
+update:
+INSERT OR REPLACE INTO NoteContents(contentsId, text, draftText) VALUES ?;
+
+insert:
+INSERT OR REPLACE INTO NoteContents(text, draftText) VALUES ?;
+
+delete:
+DELETE FROM NoteContents WHERE contentsId = :id;
+
+deleteMultiple:
+DELETE FROM NoteContents WHERE contentsId IN ?;
+
+get:
+SELECT * FROM NoteContents WHERE contentsId = :id;
+
+getMultiple:
+SELECT * FROM NoteContents WHERE contentsId IN ?;
+
+getIndex:
+SELECT last_insert_rowid();
